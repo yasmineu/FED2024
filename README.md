@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Yasmine Uaali
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  heel erg blauw, like héééél blauw, lichtblauw misschien zelfs. 
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  Voor nu responsive maar het lijkt me leuk om ook iets van surface plane er tussen te kunnen doen
  
 </details>
 
@@ -36,14 +36,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  dunkin.nl [help]
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Homepage van de dunkin.nl website  
+  <img src="readme-images/hoofdpagina.jpeg" width="375px" alt="een screenshot van de eerste pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+  Tweede pagina ben ik nog niet helemaal over uit...
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
@@ -57,7 +57,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen: 
-  1 de website heeft verschillende headings
+  Het was allereerst best wel zoeken en uitvinden hoer ik met Voice Over zelf aan de slag moest maar nadat ik het een beetje door had, was het echt even door de website zelf zoeken. 
+  Dunkin' gebruikt best veel divs op de website en wat je hoort is best veel ruis maar niet een duidelijke omschrijving van de website. Het is maar dat ik kan zien en daardoor kan zien wat er geselecteerd is door de Voice Over maar ik zou het niet kunnen volgen zonder te kijken. Laat staan daadwerkelijk een bestelling of iets dergelijk plaatsen. 
 
 </details>
 
@@ -93,22 +94,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+  Samen met Sinem en Noah hebben we kort de vragen doorgenomen die we op dit moment hebbene en willen bespreken tijdens onze eerste voorstgangsgesprek, we kwamen op het volgende: 
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Yasmine: 
+   - Mijn website maakt gebruik van heeft veels div, mag ik hier gewoon articles/sections van maken? En wanneer zou ik wel een div mogen gebruiken?
+   - Een aantal afbeeldingen op mijn pagina zijn zo gepositioneerd dat het geen afbeeldingen zijn maat 
+   - In hoeverre worden de animaties die op de website worden gebruikt van mij verwacht? Bijv. elke keer wanneer het scherm laadt. 
+   - In de mobile first scherm wordt de navigatie een hamburger menu, geen idee hoe ik dat moet maken
 
+  Noah:
+   - Geen idee waar ik moet beginnen eigenlijk. 
+   - De lettertypes van de website 
+  
+  Sinem:
+   - Mijn headings zijn plaatjes, Geen idee hoe ik dat moet aanpakken
+   - Sommige buttons hebben border en ik heb geen idee hoe ik dat moet maken.
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
 
 </details>
 
@@ -230,7 +234,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
+  1. Dunkin.nl is de website die ik voor deze opdracht heb gebruikt, de afbeeldingen komen van de website.
   2. bron 2
   3. ...
 
