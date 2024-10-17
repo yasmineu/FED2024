@@ -113,6 +113,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
+  - de site taal goed instellen in de language tag
+  - onnodige engelse woorden kan je het beste vertalen
+  - titel van de pagina een goeie titel geven (voor de tablad en Google)
+  - favicon is de afbeelding/logo naast de titel van de pagina 
+  - wanneer een afbeelding een heading is (h1/h2/h3) kan je de alt tekst in de aria-label zetten van de heading
+  - a single div website 
 
 </details>
 
@@ -132,20 +138,31 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Yasmine: 
+
+  - font die gedownload is in je website zetten of moet je alles met fontface doen?
+
+
+  Sinem: 
+  - nav/hamburger menu doornemen
+  - hoe krijg je twee sections naast elkaar 
+  - hoe krijg je de plaatjes in mijn section van de chips zakker boven aan terwijl ze in de html onderaanstaan.
+
+  Noah:
+
+
+
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - niet twee sections maken, je kan beter 1 section gebruiken en article met display flex gebruiken. + flex wrap + width 15 em 
+  - met een carousel geen flex wrap gebruiken.
+  - alles moet een custom property worden in de root, kleuren en textgrootte sws 
+  - eerste line "dunking is opzoek naar jou"-banner, in de header" en dan met position
+  - order now button ergens in de main
+
 
 </details>
 

@@ -9,34 +9,67 @@
 	<title>Dunkin' Nederland</title>
 	
 	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+	<link rel="icon" type="image/svg+xml" href="images/DNKN.svg">
 </head>
 
 	<body>
+		<!-- HEADER -->
 
-		<!-- navigatie, weet niet hoe -->
-		<nav>
-		</nav>
-		
-		<!-- De Homepagebutton-->
-		<header>	
+		<header>
+			<!-- logo op de pagina-->
 			<h1>Dunkin'</h1>
-			<link rel="stylesheet" href="">
+			<!-- <link rel="stylesheet" href=""> -->
+			<!-- op tweede pagina -->
+			
+			<button aria-hidden="true">
+				<img src="images/hamburger_icon.svg.png" alt="drie streepjes">
+			</button>
+
+			<!-- menu knop -->
+			<button aria-hidden="true">
+				<img src="images/Language_Dutch.svg" alt="drie streepjes onder elkaar die een hamburger menu moeten voorstellen">
+			</button>
 		</header>
+		
+		<!-- NAVIGATIE -->
+		<nav>
+
+			<button aria-hidden="true">
+				<img src="" alt="">
+				Sluit
+			</button>
+			<ul>
+				<li><a href="https://www.dunkin.nl/storefinder">Storefinder</a></li>
+				<li><a href="https://werkenbijdunkin.store/">Jobs</a></li>
+					<details>
+						<summary>	<a href="">Blog</a></li> </summary>
+						<ul>
+							<li><a href="https://www.dunkin.nl/about">about</a></li>
+							<li><a href="https://www.dunkin.nl/allergenen-en-ingredienten">product info</a></li>
+							<li><a href="https://www.dunkin.nl/faq">faq</a></li>
+							<li><a href="https://www.dunkin.nl/contact">contact</a></li>
+						</ul>
+					</details>
+				</li>
+				<li><a href="https://www.dunkin.nl/order-now">Bestellen</a></li>
+			</ul>
+		</nav>
 
 		<main>
 			<!-- SECTION 1: We love coffee foto-->
 			<section>
-				<h2>We love coffee</h2>
-				<img src="" alt=""> <!-- moet ik nog maken-->
+				<h2>We love coffee</h2> <!-- hier kan dus een aria-label in-->
+				<img src="images/coffee_behind.png" alt="">
+				<img src="images/coffee_center.png" alt="">
+				<img src="images/coffee_behind.png" alt="">
 			</section>
 
 			<!-- SECTION 2: Bestel! met twee knoppen -->
 			<section>
 				<h2>Bestel!</h2>
 				<p>Maak een keuze:</p>
-				<p>bestellen</p>
-				<p>afhalen</p>
+				<a href="">Bestellen</a>
+				<a href="">Afhalen</a>
 			</section>	
 
 			<!-- SECTION 3: NIEUW met plaatje van nieuwe donuts-->			
@@ -46,18 +79,19 @@
 
 			<!-- SECTION 4: BESTEL DUNKIN' ONLINE -->
 			 <section>
-				<h2>BESTEL DUNKIN' ONLINE</h2>
+				<h2>bestel <em>dunkin'</em> online</h2>
 				<ol>
 					<li>
-						<h3>1. Vul je postcode in</h3>
+						<h3>Vul je postcode in</h3>
+						<img src="." alt="">
 						<p>Zoek jij een store in de buurt? Gebruik de Dunkin' Storefinder.</p>
 					</li>
 					<li>
-						<h3>2. Plaats je bestelling</h3>
+						<h3>Plaats je bestelling</h3>
 						<p>Kies uit meer dan 200 verschillende donut smaken. Welke kies jij?</p>
 					</li>
 					<li>
-						<h3>3. Ontvang je bestelling</h3>
+						<h3>Ontvang je bestelling</h3>
 					</li>
 				</ol>
 			 </section>
@@ -66,9 +100,35 @@
 			 <section>
 				
 			 </section>
-			</main>
+		</main>
+			<!-- DE FOOTER  -->
+		<footer>
+			<img src="images/DNKN.svg" alt="dunkin donut logo, beetje getilt">
+			
+			<section>
+				<a href="">Storefinder</a>
+				<a href="">Jobs</a>
+				<a href="">Blog</a>
+				<a href="">Over Dunkin'</a>
+			</section>
+
+			<!-- hier moeten tiktok insta en facebook linkjes in komen -->
+			<aside>
+				<a href=""> <img src="" alt=> </a> </li>
+				<a href=""> <img src="" alt=> </a></li>
+				<a href=""> <img src="" alt=> </a></li>
+			</aside>	
+			
+
+			<section> 
+				<a href="">22 DD IP Holder</a> |
+				<a href="">22 DD IP Holder</a> |
+				<a href="">Privacy Policy </a> |
+				<a href="">Algemene voorwaarden</a> |
+				<a href="">⚡️</a>|
+			</section>
+		</footer>
 
 		<script defer src="scripts/script.js"></script>
 	</body>
-	
 </html>
