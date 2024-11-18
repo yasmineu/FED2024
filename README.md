@@ -246,8 +246,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. Dunkin.nl is de website die ik voor deze opdracht heb gebruikt, de afbeeldingen komen van de website.
-  2. bron 2
+  1. Dunkin.nl is de website die ik voor deze opdracht heb gebruikt, de afbeeldingen, logo's, en de font komen van de website.
+  2. 
   3. ...
 
 </details>
