@@ -2,214 +2,37 @@
 /* CSS REMEDY */
 /**************/
 *, *::after, *::before {
-  box-sizing:border-box;  
-}
-
-@font-face {
-	font-family: "dunkin sans", "arial";
-	src: url(./fonts/dunkin_sans.otf);
-	font-weight: 400;
-}
-
-
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
-:root {
-	--text-color:#111;
-	--nav-text-color: #512d0e;
-	--white-background-color:#ffffff;
-	--grey-brackground-color: #f5f5f5;
-	--pink-color: #ec4390;
-	--pink-button-color: #ec4dac;
-	--orange-color: #ef6c38;
-	--grey-brackground-color: #f5f5f5;
-}
-
-/****************************************/
-/*            JOUW STYLING              */
-/****************************************/
-
-/****************/
-/* NAVIGATIE*/
-/****************/
-
-header button {
-	padding:.5em;
-}
+	box-sizing:border-box;  
+  }
   
-
-header button img {
-	height:1em;
-}
-
-nav{
-	font-family: "dunkin sans", "arial";
-	
-	padding: 1em;
-
-	display: grid;
-	align-content:start;
-	gap: 1em;
-
-	position:fixed;
-	left: 0;
-	right:0;
-	top:0;
-	bottom:0;
-	/* inset: 0; */
-
-	translate: -100%;
-	transition: 1s;
-
-}
-
-nav.toonMenu{
-	translate: 0%;
-}
-
-/* linkjes in de navigatie>menu */
-
-nav li {
-	list-style-type: none;
-}
-nav a {
-	display: flex;
-	align-items: center;
-	column-gap: .5em;
-}
-nav a.active{
-	/* misschien nog weghalen */
-	font-weight: bold;
-}
-
-@media (min-width:38em) {
-header > button {
-	position: absolute;
-	left: -9999em;
-}
-	
-nav {
-	position: static;
-	translate: unset;
-	padding:0;
-	background: none;
-}
-	
-nav button {
-	position: absolute;
-	left: -9999em;
-}
-	
-nav ul {
-	display: flex;
-	gap: .5em;
-	  
-}
-	
-nav a {
-	border: none;
-	flex-direction: column;
-}
-	
-header > a:last-of-type {
-	flex-direction: column;
-}
-}
-
-/****************/
-/* text */
-/****************/
-
-* {
-	font-family: "dunkin sans", "arial";
-	text-transform: uppercase;
-}
-
-h1{
-	color: var(--orange-color);
-}
-
-h2{
-	font-family: "dunkin sans";
-	display: grid;
-
-	color: var(--pink-color);	
-}
-
-h2 em{
-	font-style: normal;
-
-	color: var(--orange-color);	
-}
-
-p{
-	color: var(--grey-brackground-color);
-}
-
-
-
-/****************/
-/* STYLING WE LOVE COFFEE */
-/****************/
-
-section:nth-of-type(1) {
-
-	display:grid;
-	
-	overflow:hidden;
-
-	background-image:
-		repeating-conic-gradient(
-			at 50% 75%,
-			#ddbd8e,
-			white,
-			#ddbd8e 5%
-		)
-}
-
-section:nth-of-type(1) h2 {
-	text-align:center;
-	padding:6em 0;
-}
-
-
-section:nth-of-type(1) img {
-	
-	width:100%;
-	
-	grid-row-start:2;
-	grid-column-start:1;
-
-	justify-self:center;
-	align-self:end;
-}
-
-section:nth-of-type(1) img:nth-of-type(1) {
-	width:40%;
-	translate:-50% 25%;
-}
-
-section:nth-of-type(1) img:nth-of-type(2) {
-	width:40%;
-	translate:50% 25%;
-}
-
-section:nth-of-type(1) img:nth-of-type(3) {
-	width:50%;
-	z-index:1;
-}	
-
-@media (width > 40em) {
-	section:nth-of-type(1) {
-		background-color:pink;
-	}
-	
-	section:nth-of-type(1) img:nth-of-type(1) {
-		translate:-60%;
-	}
-
-	section:nth-of-type(1) img:nth-of-type(2) {
-		translate:60%;
-	}
-}
+  @font-face {
+	  font-family: "dunkin sans", "arial";
+	  src: url(./fonts/dunkin_sans.otf);
+	  font-weight: 400;
+  }
+  
+  
+  /*********************/
+  /* CUSTOM PROPERTIES */
+  /*********************/
+  :root {
+	  --text-color:#111;
+	  --nav-text-color: #512d0e;
+	  --white-background-color:#ffffff;
+	  --grey-brackground-color: #f5f5f5;
+	  --pink-color: #ec4390;
+	  --pink-button-color: #ec4dac;
+	  --orange-color: #ef6c38;
+	  --darkorange-color: #ea4933;
+	  --grey-brackground-color: #f5f5f5;
+	  --grey-text-color: #adadad;
+	  --blue-background-color: #99d6ea;
+	  --coffee-background-color: #ddbd8e;
+	  --darkcoffee-backgroun-color: #d6b687;
+	  --state-color: lime; 
+  
+	  --font-size-h2: 4em;
+	  --font-size-h3: 2em;
+	  --font-size-p: 1em;
+  
+  }

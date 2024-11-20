@@ -43,8 +43,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/hoofdpagina.jpeg" width="375px" alt="een screenshot van de eerste pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Tweede pagina ben ik nog niet helemaal over uit...
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Bestelpagina 
+  <img src="readme-images/bestelpagina.png" width="375px" alt="screenshot van bestelpagina">
  
 </details>
 
@@ -70,13 +70,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschetsen.png" width="375px" alt="breakdown van de hele pagina">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  ### dynamisch deel carousel: 
+  <img src="readme-images/breakdownschets2.png" width="375px" alt="breakdown van een dynamisch deel">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -91,6 +89,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+<img src="readme-images/eersteprogres.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Agenda voor meeting
@@ -176,7 +175,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+ mijn website was zeker nog niet af genoeg om te testen maar dit was vooral kennis maken met de voiceover controls ter voorbereiding van het eindgesprek
 
 </details>
 
@@ -200,11 +199,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
- - navs maken van de footer ipv section en aside
- - order -1 
- - top en right van het scherm en transform translate vanaf het item zelf
- - elke section heeft een heading nodig 
- - offset width 
+ - geen aside gebruiken in de footer
+ - order -1 voor de header
+ - top en right van het scherm en transform translate vanaf het item zelf voor de footer 
+ - elke section heeft een heading nodig  
 
 </details>
 
@@ -222,9 +220,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Hoe ik nu duidelijk grid moet gebruiken voor mijn main
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="images" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
@@ -233,7 +231,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
+## Herkansing (week 5)
 
+<details>
+  <summary>uitwerken voor eindgesprek</summary>
+
+  ### Je uitkomst - karakteristiek screenshots:
+  <img src="readme-images/mobileindex.png" width="375px" alt="uitomst opdracht 1">
+
+
+  ### Dit ging goed/Heb ik geleerd: 
+ Dat je mooie dingen kan maken en coderen echt wel leuk kan zijn, css is vaak veel handiger en fijn te gebruiken. de juiste selectore vinden is soms nog een taak maar backgroundcolor lime heeft daar veel bij geholpen. 
+
+ik heb heel trots op wat ik ervan heb kunnen maken met bedank van de stof, de lessen en alle hulpmiddelen
+
+  ### Dit was lastig/Is niet gelukt:
+ op het eind deed de footer en de carousel op de eerste pagina niet meer zoals het eerst de bedoeling was wanneer ik het op een groter scherm probeerde responsive te maken, voor de rest blijven de afbeeldingen van de we love coffee staan bij het openen van de nav in het hamburger menu
+
+ de "bestel button" is een a/ link maar ik kreeg deze maar niet op een correcte wijze als een button
+</details>
 
 
 
@@ -247,7 +263,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. Vermeld de bronnen ook in je code.
 
   1. Dunkin.nl is de website die ik voor deze opdracht heb gebruikt, de afbeeldingen, logo's, en de font komen van de website.
-  2. 
-  3. ...
+  2. https://zellwk.com/blog/style-hover-focus-active-states/ hier heb ik voorbeelden voor de state vandaan gehaald
+  3. Voorbeelden van DLO > darkmode
+  4. Codepen voorbeelden van Sanne > we love coffee, carousel
+
 
 </details>
