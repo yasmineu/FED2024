@@ -231,14 +231,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
-## Herkansing (week 5)
+
+## Herkansing
 
 <details>
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/mobileindex.png" width="375px" alt="uitomst opdracht 1">
-
+  <img src="readme-images/mobileindex.png" width="375px" alt="mobiel versie homepagina">
+  <img src="readme-images/desktopindex.png" width="375px" alt="desktop versie homepagina">
+  <img src="readme-images/mobilebestel.png" width="375px" alt="mobiel versie bestelpagina">
+  <img src="readme-images/desktopbestel.png" width="375px" alt="desktop versie bestelpagina">
 
   ### Dit ging goed/Heb ik geleerd: 
  Dat je mooie dingen kan maken en coderen echt wel leuk kan zijn, css is vaak veel handiger en fijn te gebruiken. de juiste selectore vinden is soms nog een taak maar backgroundcolor lime heeft daar veel bij geholpen. 
