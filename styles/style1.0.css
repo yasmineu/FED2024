@@ -168,7 +168,7 @@ header > a:last-of-type:focus{
 /*************************/
 
 
-nav{
+header nav {
 	font-family: "dunkin sans", "arial";
 	
 	padding: 1em;
@@ -191,17 +191,17 @@ nav{
 
 }
 
-nav.toonMenu{
+header nav.toonMenu{
 	translate: 0%;
 }
 
 /* linkjes in de navigatie>menu */
 
-nav li {
+header nav li {
 	list-style-type: none;
 }
 
-nav a {
+header nav a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -257,32 +257,32 @@ nav button img {
 }
 
 @media (min-width:48em) {
-	header > button {
-		position: absolute;
-		left: -9999em;
-	}
+header > button {
+	position: absolute;
+	left: -9999em;
+}
 
 	
-nav {
+header nav {
 	position: static;
 	translate: unset;
 	padding: 0;
 	background: none;
 }
 	
-nav button {
+header nav button {
 	position: absolute;
 	left: -9999em;
 }
 
 	
-nav ul {
+header nav ul {
 	display: flex;
 	gap: .5em;
 	flex-wrap: wrap;  
 }
 	
-nav a {
+header nav a {
 	border: none;
 	flex-direction: column;
 }
@@ -504,7 +504,6 @@ main section:nth-of-type(4) {
 }
 
 main section:nth-of-type(4) h2 {
-	
 	font-size: var(--font-size-h2);
 	line-height: 1em;
 	padding: .5em;
@@ -537,7 +536,9 @@ main section:nth-of-type(4) h3 {
 	grid-row: 1/2;
 
 }
-
+/* main section:nth-of-type(4) em{
+	margin: 0;
+} */
 main section:nth-of-type(4) p {
 	
 
@@ -593,7 +594,6 @@ main section:nth-of-type(4){
 	display: flex;
 	position: relative;
 }
-
 
 main section:nth-of-type(4) ul{
 	display: grid;
@@ -658,7 +658,7 @@ main section:nth-of-type(5) li{
 
 	scroll-snap-align:center;
 	flex-shrink:0;
-	width:100%;
+	width: 15em;
 }
 
 main section:nth-of-type(5) li img {
@@ -672,7 +672,6 @@ main section:nth-of-type(5) li img {
 	object-fit: cover;
 	object-position: center;
 
-	order: -1;
 }
 
 
@@ -715,7 +714,7 @@ main section:nth-of-type(5) button {
 main section:nth-of-type(5) button:last-of-type {
 
 
-	width: 100%;
+	width: 90%;
 	padding: 1em;
 	margin: .5em;
 
@@ -751,7 +750,7 @@ footer{
     background-color: var(--darkorange-color);
 }
 
-footer section:nth-of-type(1) img{
+footer > img{
     position: absolute;
     
     height: 40%;
@@ -767,9 +766,12 @@ footer section:nth-of-type(1) img{
     border-radius: 8em;
     border: none;
 }
+footer nav:nth-of-type(1) {
+    padding: 7em 2em 2em 2em;
+}
 
 
-footer section:nth-of-type(2) a{
+footer nav:nth-of-type(1) a{
     padding: 1em;
     margin: .5em;
     display: flex;
@@ -786,7 +788,7 @@ footer section:nth-of-type(2) a{
     border-radius: 2em;
 }
 
-footer section:nth-of-type(3) {
+footer nav:nth-of-type(2) {
     display: flex;
     gap: .5em;
     flex-wrap: wrap;
@@ -795,7 +797,7 @@ footer section:nth-of-type(3) {
 }
 
 
-footer section:nth-of-type(3) img{
+footer nav:nth-of-type(2) img{
 
     padding: 1em;
     width: 4em;
@@ -807,13 +809,13 @@ footer section:nth-of-type(3) img{
 }
 
 
-footer section:nth-of-type(4) {
+footer nav:nth-of-type(3) {
     display: flex;
     
     background-color: var(--grey-brackground-color);
 
 }
-footer section:nth-of-type(4) a{
+footer nav:nth-of-type(3) a{
     
     padding-left: .25em;
     padding-right: .25em;
@@ -823,7 +825,7 @@ footer section:nth-of-type(4) a{
     background-color: var(--grey-brackground-color);
 }
 
-footer section:nth-of-type(4) a + a{
+footer nav:nth-of-type(3) a + a{
     border-left: solid 1px var(--text-color);
 }
 
@@ -832,30 +834,28 @@ footer  a:focus{
 	box-shadow: 0 0 0 .25em var(--state-color);
 }
 
+
 @media (width > 48em) {
 
 footer{
-    padding: 1em ;
-    display: grid;
-    gap: 1em;
-    
-    /* grid-template-columns: repeat(4), (1fr); */
+	padding: .5em;
+	display: grid;
+	gap: 1em;
+		/* grid-template-columns: repeat(4), (1fr); */
 }
-
-
-footer section:nth-of-type(2) {
-    display: flex;
-    justify-content: center;
-
+	
+	
+footer nav:nth-of-type(1) {
+	padding: 2em;
+	display: flex;
+	justify-content: center;
+   
 }
-
-footer section:nth-of-type(2) a{
-    border-radius: 0;
-    display: flex;
-    justify-content: center;
-    
+	
+footer nav:nth-of-type(1) a{
+	border-radius: 0;
+	display: flex;
+	justify-content: center;
+	border-radius: 2em;
 }
-
-
 }
-
